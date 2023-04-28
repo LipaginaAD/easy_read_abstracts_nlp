@@ -18,7 +18,9 @@ To train model:
 
 You can also change the following settings:
 
+
 --num_epochs - number of epochs, default=5
+
 
 --batch_size - Number of batches per epoch, default=32
 
