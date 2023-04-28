@@ -1,7 +1,9 @@
 # easy_read_abstracts_nlp
-This NLP model makes reading medical papers' abstracts easier. It assigns a label (BACKGROUND, OBJECTIVE, METHODS, RESULTS or CONCLUSIONS) to each sentence of abstracts.  
+This classification NLP model makes reading medical papers' abstracts easier. It assigns a label (BACKGROUND, OBJECTIVE, METHODS, RESULTS or CONCLUSIONS) to each sentence of abstracts.  
 
 It's replicate this paper: https://arxiv.org/abs/1710.06071
+
+In model used token embeddings, character embeddings and position embeddings.
 
 ## Data
 Data taken from authors of paper, that replicate: https://github.com/Franck-Dernoncourt/pubmed-rct
