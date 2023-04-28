@@ -9,7 +9,7 @@ Data taken from authors of paper, that replicate: https://github.com/Franck-Dern
 ## Usage
 
 To train model:
-'''python
+'''
 !python nlp_project/train.py --train_dir='your_directory/train.txt' --valid_dir='your_directory/dev.txt'
 '''
 You can also change the following settings:
@@ -23,7 +23,7 @@ You can also change the following settings:
 
 
 To use model on custom abstracts 
-'''python
+'''
 !python nlp_project/test_on_custom_abstract.py --custom_abstract_dir='your_directory/test_abstracts.txt' --saved_model_dir='/content/nlp_model'
 '''
 You can also change the following settings:
