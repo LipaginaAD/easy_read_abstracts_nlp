@@ -17,12 +17,19 @@ To train model:
 ```
 
 You can also change the following settings:
+
 --num_epochs - number of epochs, default=5
+
 --batch_size - Number of batches per epoch, default=32
+
 --check_path - directory to save checkpoint data
+
 --model_url - Model's URL from TensorFlow Hub for transfer learning embed layer, USE model as default
+
 --output_shape_embed_layer - output shape of embed layer, depends from using transfer learning mode
+
 --output_char_len - Length of output sequences from character vectorizer layer, default=290
+
 --saved_model_dir - directory to save model
 
 
@@ -33,5 +40,7 @@ To use model on custom abstracts
 ```
 
 You can also change the following settings:
+
 --abstract_num - number of custom abstract in text file
+
 --train_dir - directory of text file with train data
