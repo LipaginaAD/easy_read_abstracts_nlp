@@ -22,7 +22,7 @@ You can also change the following settings:
 --num_epochs - number of epochs, default=5
 
 
---batch_size - Number of batches per epoch, default=32
+--batch_size - Number of samples per batch, default=32
 
 --check_path - directory to save checkpoint data
 
